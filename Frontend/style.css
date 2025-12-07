@@ -1,0 +1,60 @@
+header{
+    background-color:rgb(70, 70, 175);
+    color:whitesmoke;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu,.cart{
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.menu-items{
+    padding: 15px;
+    background: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.menu-items button{
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(70, 70, 175);
+    
+}
+#checkout-button, #logout-button{
+    background: rgb(70, 70, 175);
+    color: white;
+    border-radius: 10px;
+    cursor:pointer;
+}
+label{
+    font-weight: bold;
+}
+input{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(70, 70, 175);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
