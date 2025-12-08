@@ -18,7 +18,7 @@ app.use(cors({
         const allowedOrigins = [
             'https://campus-food-frontend.onrender.com',
             'http://localhost:3000',
-            'http://localhost:5000',
+            'http://localhost:10000',
             'http://localhost:10000',  
             'http://127.0.0.1:5500',
             'http://localhost:5500',
