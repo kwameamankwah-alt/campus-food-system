@@ -5,8 +5,6 @@ require('dotenv').config();
 
 const app = express();
 
-const bcrypt = require('bcryptjs');
-
 app.use(express.json());
 
 
